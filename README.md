@@ -6,6 +6,6 @@
 ## Time lapse of the progress ##
 
 
-***Visualising the h2 database in h2 console with the help of spring boot devtools dependency***
+***Visualising the h2 database in h2 console with the help of spring boot devtools dependency and embedded in-memory h2 database***
 ![image](https://user-images.githubusercontent.com/81863474/209713907-a0102039-5eac-4bf0-96eb-533ab1bf5b24.png)
 
