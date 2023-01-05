@@ -27,9 +27,9 @@ public class UserRepositoryTest {
     public void findByUsername_HappyPath_ShouldReturn1User() throws Exception {
         // Given
         User user = new User();
-        user.setUsername("Anutosh");
+        user.setUsername("Anutosh12");
         user.setPassword("xxxxxx");
-        user.setRole("USER");
+        user.setRole("USER3");
         testEntityManager.persist(user);
         testEntityManager.flush();
 
@@ -46,7 +46,7 @@ public class UserRepositoryTest {
 	    User user = new User();
 	    user.setUsername("Anutosh12");
 	    user.setPassword("XXXXXX");
-	    user.setRole("USER");
+	    user.setRole("USER3");
 	
 	    // When
 	    User actual = userRepository.save(user);
