@@ -1,4 +1,4 @@
-package com.example.demo.repoTest;
+package com.example.demo.repo;
 
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -11,7 +11,6 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.example.demo.model.User;
-import com.example.demo.repo.UserRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

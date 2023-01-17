@@ -1,4 +1,4 @@
-package com.example.demo.repoTest;
+package com.example.demo.repo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -12,7 +12,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.example.demo.model.Comment;
 import com.example.demo.model.CommentType;
-import com.example.demo.repo.CommentRepository;
 
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;

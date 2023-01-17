@@ -15,11 +15,13 @@ public class PostController{
 	
 	@Autowired
 	private UserRepository userRepository;
-	
+
+	// create users through this method and save in h2 database
+	// and also send a http response as recorded in postman
 	@PostMapping("/users")
 	public ResponseEntity<User> postData(@RequestBody User user){
 		userRepository.save(user);
 		return new ResponseEntity<User>(user, HttpStatus.OK);
-		
 	}
+
 }
