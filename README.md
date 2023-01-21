@@ -16,6 +16,6 @@
 ***Login form for authentication and authorisation, only authenticated users are allowed to log in as mentioned in SecurityConfig***
 ![Screenshot (1044)](https://user-images.githubusercontent.com/81863474/213848706-503674bb-c736-44db-a067-0b5829d27c7d.png)
 
-***Retrspective board for adding comments after sprint to improve productivity***
+***Retrospective board for adding comments after sprint to improve productivity***
 ![Screenshot (1045)](https://user-images.githubusercontent.com/81863474/213848708-ef268a5a-b4f8-4063-b7c1-dee7773ec732.png)
 
